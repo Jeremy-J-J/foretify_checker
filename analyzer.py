@@ -304,7 +304,7 @@ def main():
     import argparse
     
     parser = argparse.ArgumentParser(description="处理 foretify 日志文件")
-    parser.add_argument("--log", type=str, default="/home/user05/zjutest/log_jsonl.txt", help="日志文件路径")
+    parser.add_argument("--log", type=str, default="/home/user05/foretify_checker/log_jsonl.txt", help="日志文件路径")
     parser.add_argument("--output", type=str, default="result.json", help="输出文件路径")
     parser.add_argument("--format", type=str, choices=["json", "csv"], default="json", help="输出格式")
     parser.add_argument("--sort-by", type=str, choices=["case_name", "status"], default="case_name", help="排序字段")

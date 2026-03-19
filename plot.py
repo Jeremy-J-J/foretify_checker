@@ -9,7 +9,7 @@ matplotlib.rcParams['font.sans-serif'] = ['Noto Sans CJK JP']
 matplotlib.rcParams['axes.unicode_minus'] = False
 
 # 读取 JSON 文件
-with open('/home/user05/zjutest/result.json', 'r', encoding='utf-8') as f:
+with open('/home/user05/foretify_checker/result.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # 统计 error_category
